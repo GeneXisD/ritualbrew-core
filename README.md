@@ -1,17 +1,61 @@
-Ritualbrew
+# Ritualbrew Core
 
-Ritualbrew is a layered system for building executable environments.
+Ritualbrew is not just software — it is a structured system for:
 
-It does not aim to perfect individual components.
+- Building interpreters (like iSH)
+- Embedding mesh networking (libp2p, GNUnet, Netsukuku)
+- Running modular OS layers (Dynebolic / PureDyne)
+- Creating decentralized execution environments
 
-Instead, it composes:
-	•	execution layers (ish64)
-	•	system bases (Dynebolic / PureDyne)
-	•	mesh networking (libp2p / GNUnet / I2P)
+---
 
-into reproducible “rituals”.
+## Core Philosophy
 
-Philosophy
-	•	Imperfect components are acceptable
-	•	Missing functionality is compensated at higher layers
-	•	Systems are composed, not fixed
+Instead of:
+> OS → Network → App
+
+We build:
+> Interpreter → Mesh → Modules → Reality Layer
+
+---
+
+## Components
+
+### Core
+- syscall layer (iSH-inspired)
+- interpreter engine (threaded gadget model)
+- VM abstraction
+
+### Mesh
+- libp2p
+- GNUnet
+- I2P / Tor bridges
+- Netsukuku (future backbone)
+
+### Dyne Stack
+- Dynebolic 1.x (ritual baseline)
+- Dynebolic 2.x (toolchain)
+- PureDyne (modular execution)
+
+### Gopher Layer
+- lightweight content mesh
+- documentation + node publishing
+
+---
+
+## Goal
+
+To create a system where:
+
+- Devices become nodes
+- Nodes become interpreters
+- Interpreters become networks
+- Networks become autonomous systems
+
+---
+
+## Bootstrapping
+
+```bash
+chmod +x scripts/bootstrap.sh
+./scripts/bootstrap.sh
