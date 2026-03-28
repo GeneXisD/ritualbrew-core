@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 # Ritualbrew Core
+=======
+---# Ritualbrew Core
+>>>>>>> Stashed changes
 
 Ritualbrew is not just software — it is a structured system for:
 
